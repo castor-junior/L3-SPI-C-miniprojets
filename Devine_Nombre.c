@@ -39,7 +39,7 @@ void Jeu_Debutant()
 
 	printf("\n");
 	printf("Pour les tests, la reponse est %d\n", n);
-	//Lancer la boucle de jeu, le nombre d'essai est stocké mais pas utilise.
+	//Lancer la boucle de jeu, le nombre d'essai est affiché
 	printf("Nombre d'essai : %d\n", Boucle_Jeu(n));
 }
 
@@ -130,3 +130,4 @@ int main()
 	Lancer_Jeu();
 	return 0;
 }
+
